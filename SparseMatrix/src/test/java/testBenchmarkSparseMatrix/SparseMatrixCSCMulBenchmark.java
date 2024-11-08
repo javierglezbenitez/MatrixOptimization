@@ -1,4 +1,4 @@
-package testBenchmark;
+package testBenchmarkSparseMatrix;
 
 import org.openjdk.jmh.annotations.*;
 import java.util.ArrayList;

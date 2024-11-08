@@ -5,16 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="699c330d-0ee4-4737-b43f-97a46490f68b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SparseColumnCSC/SparseMatrixCSCMul.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SparseColumnCSC/SparseMatrixCSCMul.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SparseRowCSR/SparseMatrixCSRMul.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SparseRowCSR/SparseMatrixCSRMul.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testBenchmark/SparseMatrixCSCMulBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testBenchmark/SparseMatrixCSCMulBenchmark.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/javierglezbenitez/MatrixOptimization.git",
+    "accountId": "8c6f8dc2-1533-4e30-97c0-c9861b9bf3be"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
 }]]></component>
@@ -26,12 +45,41 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Jmh.SparseMatrixCSCMulBenchmark.testCSCMatrixMultiplication$.executor": "Run",
+    "Jmh.SparseMatrixCSRMulBenchmark.testCSRMatrixMultiplication$.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/cgsos/Documents/Tercero/Big Data/MatrixOptimization/src/test/java",
     "onboarding.tips.debug.path": "C:/Users/cgsos/Documents/Tercero/Big Data/MatrixOptimization/src/main/java/org/example/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cgsos\Documents\Tercero\Big Data\MatrixOptimization\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jmh.SparseMatrixCSCMulBenchmark.testCSCMatrixMultiplication$">
+    <configuration name="SparseMatrixCSCMulBenchmark.testCSCMatrixMultiplication$" type="jmh-id" temporary="true" program-parameters="testBenchmark.SparseMatrixCSCMulBenchmark.testCSCMatrixMultiplication$" working-dir="$MODULE_WORKING_DIR$" benchmark-type="METHOD" benchmark-class="testBenchmark.SparseMatrixCSCMulBenchmark" isAlternativeJrePathEnabled="false">
+      <module name="MatrixOptimization" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparseMatrixCSRMulBenchmark.testCSRMatrixMultiplication$" type="jmh-id" temporary="true" program-parameters="testBenchmark.SparseMatrixCSRMulBenchmark.testCSRMatrixMultiplication$" working-dir="$MODULE_WORKING_DIR$" benchmark-type="METHOD" benchmark-class="testBenchmark.SparseMatrixCSRMulBenchmark" isAlternativeJrePathEnabled="false">
+      <module name="MatrixOptimization" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jmh.SparseMatrixCSCMulBenchmark.testCSCMatrixMultiplication$" />
+        <item itemvalue="Jmh.SparseMatrixCSRMulBenchmark.testCSRMatrixMultiplication$" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

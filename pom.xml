@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>SparseMatrix</module>
+        <module>BlockMatrix</module>
     </modules>
 
     <properties>

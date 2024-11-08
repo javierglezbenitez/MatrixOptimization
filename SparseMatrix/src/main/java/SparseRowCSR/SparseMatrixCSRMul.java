@@ -7,7 +7,7 @@ import java.util.List;
 public class SparseMatrixCSRMul {
 
     // Sparse matrix in CSR format
-    static class CSRMatrix {
+    public static class CSRMatrix {
         double[] values;          // Non-zero values
         int[] columnIndices;      // Column indices corresponding to values
         int[] rowPointers;        // Row pointers

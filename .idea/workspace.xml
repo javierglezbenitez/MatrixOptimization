@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="699c330d-0ee4-4737-b43f-97a46490f68b" name="Changes" comment="William Done">
-      <change afterPath="$PROJECT_DIR$/BlockMatrix/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlockMatrix/src/test/java/testBenchmark/BlockMultiplicationMatrixBenchmark.java" afterDir="false" />
+    <list default="true" id="699c330d-0ee4-4737-b43f-97a46490f68b" name="Changes" comment="Block matrix done">
+      <change afterPath="$PROJECT_DIR$/ParalallelMatrix/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ParalallelMatrix/src/test/java/testBenchmark/ParallelMatrixMultiplicationBenchmark.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparseMatrix/src/main/java/SparseColumnCSC/SparseMatrixCSCMul.java" beforeDir="false" afterPath="$PROJECT_DIR$/SparseMatrix/src/main/java/SparseColumnCSC/SparseMatrixCSCMul.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparseMatrix/src/main/java/SparseRowCSR/SparseMatrixCSRMul.java" beforeDir="false" afterPath="$PROJECT_DIR$/SparseMatrix/src/main/java/SparseRowCSR/SparseMatrixCSRMul.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparseMatrix/src/test/java/testBenchmarkSparseMatrix/SparseMatrixCSCMulBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/SparseMatrix/src/test/java/testBenchmarkSparseMatrix/SparseMatrixCSCMulBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparseMatrix/src/test/java/testBenchmarkSparseMatrix/SparseMatrixCSRMulBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/SparseMatrix/src/test/java/testBenchmarkSparseMatrix/SparseMatrixCSRMulBenchmark.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -56,8 +62,11 @@
     "Application.SparseMatrixCSRMulWilliam$CSRMatrix.executor": "Run",
     "Application.SparseMatrixCSRMulWilliam.executor": "Run",
     "Jmh.BlockMultiplicationMatrixBenchmark.testBlockMultiplication$.executor": "Run",
+    "Jmh.ParallelMatrixMultiplicationBenchmark.benchmarkMatrixMultiplication$.executor": "Run",
+    "Jmh.SparseMatrixCSCMulBenchmark.benchmarkCSCMultiplication$.executor": "Run",
     "Jmh.SparseMatrixCSCMulBenchmark.testCSCMatrixMultiplication$.executor": "Run",
     "Jmh.SparseMatrixCSCWilliamBenchmark.testMatrixMultiplication$.executor": "Run",
+    "Jmh.SparseMatrixCSRMulBenchmark.benchmarkCSRMultiplication$.executor": "Run",
     "Jmh.SparseMatrixCSRMulBenchmark.testCSRMatrixMultiplication$.executor": "Run",
     "Jmh.SparseMatrixCSRWilliamBenchmark.testCSRMatrixMultiplication$.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -65,12 +74,15 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/cgsos/Documents/Tercero/Big Data/MatrixOptimization/SparseMatrix/src/main/java/SparseRowCSR",
-    "last_opened_file_path": "C:/Users/cgsos/Documents/Tercero/Big Data/MatrixOptimization/src/test/java",
-    "onboarding.tips.debug.path": "C:/Users/cgsos/Documents/Tercero/Big Data/MatrixOptimization/BlockMatrix/src/main/java/org/example/Main.java",
+    "last_opened_file_path": "C:/Users/cgsos/Downloads/ParallelMatrixMultiplication.java",
+    "onboarding.tips.debug.path": "C:/Users/cgsos/Documents/Tercero/Big Data/MatrixOptimization/ParalallelMatrix/src/main/java/org/example/Main.java",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="testBenchmark" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\cgsos\Documents\Tercero\Big Data\MatrixOptimization\src\test\java" />
     </key>
@@ -78,20 +90,7 @@
       <recent name="C:\Users\cgsos\Documents\Tercero\Big Data\MatrixOptimization\SparseMatrix" />
     </key>
   </component>
-  <component name="RunManager" selected="Jmh.BlockMultiplicationMatrixBenchmark.testBlockMultiplication$">
-    <configuration name="SparseMatrixCSCMul" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SparseColumnCSC.SparseMatrixCSCMul" />
-      <module name="SparseMatrix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SparseColumnCSC.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Jmh.ParallelMatrixMultiplicationBenchmark.benchmarkMatrixMultiplication$">
     <configuration name="SparseMatrixCSRMulWilliam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SparseRowCSR.SparseMatrixCSRMulWilliam" />
       <module name="SparseMatrix" />
@@ -111,13 +110,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SparseMatrixCSCWilliamBenchmark.testMatrixMultiplication$" type="jmh-id" temporary="true" program-parameters="testBenchmarkSparseMatrixWilliam.SparseMatrixCSCWilliamBenchmark.testMatrixMultiplication$" working-dir="$MODULE_WORKING_DIR$" benchmark-type="METHOD" benchmark-class="testBenchmarkSparseMatrixWilliam.SparseMatrixCSCWilliamBenchmark" isAlternativeJrePathEnabled="false">
+    <configuration name="ParallelMatrixMultiplicationBenchmark.benchmarkMatrixMultiplication$" type="jmh-id" temporary="true" program-parameters="testBenchmark.ParallelMatrixMultiplicationBenchmark.benchmarkMatrixMultiplication$" working-dir="$MODULE_WORKING_DIR$" benchmark-type="METHOD" benchmark-class="testBenchmark.ParallelMatrixMultiplicationBenchmark" isAlternativeJrePathEnabled="false">
+      <module name="ParalallelMatrix" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparseMatrixCSCMulBenchmark.benchmarkCSCMultiplication$" type="jmh-id" temporary="true" program-parameters="testBenchmarkSparseMatrix.SparseMatrixCSCMulBenchmark.benchmarkCSCMultiplication$" working-dir="$MODULE_WORKING_DIR$" benchmark-type="METHOD" benchmark-class="testBenchmarkSparseMatrix.SparseMatrixCSCMulBenchmark" isAlternativeJrePathEnabled="false">
       <module name="SparseMatrix" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SparseMatrixCSRWilliamBenchmark.testCSRMatrixMultiplication$" type="jmh-id" temporary="true" program-parameters="testBenchmarkSparseMatrixWilliam.SparseMatrixCSRWilliamBenchmark.testCSRMatrixMultiplication$" working-dir="$MODULE_WORKING_DIR$" benchmark-type="METHOD" benchmark-class="testBenchmarkSparseMatrixWilliam.SparseMatrixCSRWilliamBenchmark" isAlternativeJrePathEnabled="false">
+    <configuration name="SparseMatrixCSRMulBenchmark.benchmarkCSRMultiplication$" type="jmh-id" temporary="true" program-parameters="testBenchmarkSparseMatrix.SparseMatrixCSRMulBenchmark.benchmarkCSRMultiplication$" working-dir="$MODULE_WORKING_DIR$" benchmark-type="METHOD" benchmark-class="testBenchmarkSparseMatrix.SparseMatrixCSRMulBenchmark" isAlternativeJrePathEnabled="false">
       <module name="SparseMatrix" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jmh.ParallelMatrixMultiplicationBenchmark.benchmarkMatrixMultiplication$" />
+        <item itemvalue="Jmh.SparseMatrixCSRMulBenchmark.benchmarkCSRMultiplication$" />
+        <item itemvalue="Jmh.SparseMatrixCSCMulBenchmark.benchmarkCSCMultiplication$" />
         <item itemvalue="Jmh.BlockMultiplicationMatrixBenchmark.testBlockMultiplication$" />
         <item itemvalue="Application.SparseMatrixCSRMulWilliam" />
-        <item itemvalue="Application.SparseMatrixCSCMul" />
-        <item itemvalue="Jmh.SparseMatrixCSCWilliamBenchmark.testMatrixMultiplication$" />
-        <item itemvalue="Jmh.SparseMatrixCSRWilliamBenchmark.testCSRMatrixMultiplication$" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731091694462</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Block matrix done">
+      <option name="closed" value="true" />
+      <created>1731093197709</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731093197709</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,7 +196,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Sparse done" />
     <MESSAGE value="William Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="William Done" />
+    <MESSAGE value="Block matrix done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Block matrix done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -197,6 +211,16 @@
           <url>file://$PROJECT_DIR$/SparseMatrix/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/StrassenMatrix/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ParalallelMatrix/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

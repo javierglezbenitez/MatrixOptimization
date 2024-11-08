@@ -7,7 +7,7 @@ import java.util.List;
 public class SparseMatrixCSCMul {
 
     // Sparse matrix in CSC format
-    static class CSCMatrix {
+    public static class CSCMatrix {
         double[] values;          // Non-zero values
         int[] rowIndices;         // Row indices corresponding to values
         int[] colPointers;        // Column pointers

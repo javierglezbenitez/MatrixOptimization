@@ -11,6 +11,7 @@
     <modules>
         <module>SparseMatrix</module>
         <module>BlockMatrix</module>
+        <module>ParalallelMatrix</module>
     </modules>
 
     <properties>

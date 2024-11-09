@@ -23,13 +23,6 @@ public class SparseMatrixCSRMulWilliam {
             this.cols = cols;
         }
 
-        public void printCSRDetails() {
-            System.out.println("CSR Representation:");
-            System.out.println("Values: " + Arrays.toString(values));
-            System.out.println("Column Indices: " + Arrays.toString(columnIndices));
-            System.out.println("Row Pointers: " + Arrays.toString(rowPointers));
-        }
-
         public CSRMatrix multiply(CSRMatrix B) {
             if (this.cols != B.rows) {
                 throw new IllegalArgumentException("Matrix dimensions do not match for multiplication.");
@@ -117,22 +110,18 @@ public class SparseMatrixCSRMulWilliam {
             CSRMatrix williamMatrix = loadMatrixFromMTX("C:\\Users\\cgsos\\Documents\\Tercero\\Big Data\\MatrixOptimization\\SparseMatrix\\mc2depi.mtx");
 
 
-            // Medir tiempo de inicio
             long startTime = System.nanoTime();
 
-            // Medir memoria antes de la multiplicación
             Runtime runtime = Runtime.getRuntime();
-            runtime.gc();  // Solicitar la recolección de basura para liberar memoria
+            runtime.gc();
             long memoryBefore = runtime.totalMemory() - runtime.freeMemory();
 
             System.out.println("\nMultiplying William Matrix by itself:");
             CSRMatrix resultMatrix = williamMatrix.multiply(williamMatrix);
 
-            // Medir tiempo de finalización
             long endTime = System.nanoTime();
-            long duration = (endTime - startTime) / 1_000_000;  // Convertir a milisegundos
+            long duration = (endTime - startTime) / 1_000_000;
 
-            // Medir memoria después de la multiplicación
             long memoryAfter = runtime.totalMemory() - runtime.freeMemory();
             long memoryUsed = memoryAfter - memoryBefore;
 

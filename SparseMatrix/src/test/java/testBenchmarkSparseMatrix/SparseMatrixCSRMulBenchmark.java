@@ -13,7 +13,7 @@ public class SparseMatrixCSRMulBenchmark {
     private CSRMatrix csrMatrixA;
     private CSRMatrix csrMatrixB;
 
-    @Param({"100", "500", "1024"})  // Define los tamaños de las matrices a probar
+    @Param({"10", "100", "1024"})
     private int matrixSize;
 
     @Setup(Level.Trial)
@@ -21,7 +21,6 @@ public class SparseMatrixCSRMulBenchmark {
         double[][] matrixA = generateRandomSparseMatrix(matrixSize, matrixSize, 0.1);
         double[][] matrixB = generateRandomSparseMatrix(matrixSize, matrixSize, 0.1);
 
-        // Convertimos las matrices a formato CSR
         csrMatrixA = SparseRowCSR.SparseMatrixCSRMul.convertToCSR(matrixA);
         csrMatrixB = SparseRowCSR.SparseMatrixCSRMul.convertToCSR(matrixB);
     }
@@ -34,7 +33,6 @@ public class SparseMatrixCSRMulBenchmark {
         return csrMatrixA.multiply(csrMatrixB);
     }
 
-    // Método para generar una matriz dispersa aleatoria
     private double[][] generateRandomSparseMatrix(int rows, int cols, double sparsity) {
         double[][] matrix = new double[rows][cols];
         Random random = new Random();

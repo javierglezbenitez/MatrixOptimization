@@ -11,10 +11,8 @@ import java.util.concurrent.TimeUnit;
 @Warmup(iterations = 5, time = 1, timeUnit = TimeUnit.MILLISECONDS)
 @Measurement(iterations = 5, time = 1, timeUnit = TimeUnit.MILLISECONDS)
 @Fork(1)
-
-
 public class BlockMultiplicationMatrixBenchmark {
-    @Param({"10", "100", "1000"})
+    @Param({"10", "100", "1024"})
     int n;
     static double[][] a;
     static double[][] b;
@@ -38,7 +36,7 @@ public class BlockMultiplicationMatrixBenchmark {
 
     @Benchmark
     public void testBlockMultiplication() {
-        int blockSize = 32; // Tamaño del bloque, ajustable según el tamaño de la caché y la matriz
+        int blockSize = 32;
         for (int i = 0; i < n; i += blockSize) {
             for (int j = 0; j < n; j += blockSize) {
                 for (int k = 0; k < n; k += blockSize) {

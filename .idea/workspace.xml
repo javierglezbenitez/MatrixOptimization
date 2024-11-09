@@ -4,17 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="699c330d-0ee4-4737-b43f-97a46490f68b" name="Changes" comment="Block matrix done">
-      <change afterPath="$PROJECT_DIR$/ParalallelMatrix/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ParalallelMatrix/src/test/java/testBenchmark/ParallelMatrixMultiplicationBenchmark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="699c330d-0ee4-4737-b43f-97a46490f68b" name="Changes" comment="Parallel Matrix done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlockMatrix/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BlockMatrix/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlockMatrix/src/test/java/testBenchmark/BlockMultiplicationMatrixBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlockMatrix/src/test/java/testBenchmark/BlockMultiplicationMatrixBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParalallelMatrix/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ParalallelMatrix/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParalallelMatrix/src/test/java/testBenchmark/ParallelMatrixMultiplicationBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/ParalallelMatrix/src/test/java/testBenchmark/ParallelMatrixMultiplicationBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparseMatrix/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SparseMatrix/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SparseMatrix/src/main/java/SparseColumnCSC/SparseMatrixCSCMul.java" beforeDir="false" afterPath="$PROJECT_DIR$/SparseMatrix/src/main/java/SparseColumnCSC/SparseMatrixCSCMul.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SparseMatrix/src/main/java/SparseRowCSR/SparseMatrixCSRMul.java" beforeDir="false" afterPath="$PROJECT_DIR$/SparseMatrix/src/main/java/SparseRowCSR/SparseMatrixCSRMul.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparseMatrix/src/main/java/SparseRowCSR/SparseMatrixCSRMulWilliam.java" beforeDir="false" afterPath="$PROJECT_DIR$/SparseMatrix/src/main/java/SparseRowCSR/SparseMatrixCSRMulWilliam.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SparseMatrix/src/test/java/testBenchmarkSparseMatrix/SparseMatrixCSCMulBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/SparseMatrix/src/test/java/testBenchmarkSparseMatrix/SparseMatrixCSCMulBenchmark.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SparseMatrix/src/test/java/testBenchmarkSparseMatrix/SparseMatrixCSRMulBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/SparseMatrix/src/test/java/testBenchmarkSparseMatrix/SparseMatrixCSRMulBenchmark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,32 +54,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.MatrixMultiplication.executor": "Run",
-    "Application.SparseMatrixCSCMul.executor": "Run",
-    "Application.SparseMatrixCSCWilliam.executor": "Run",
-    "Application.SparseMatrixCSRMul.executor": "Run",
-    "Application.SparseMatrixCSRMulWilliam$CSRMatrix.executor": "Run",
-    "Application.SparseMatrixCSRMulWilliam.executor": "Run",
-    "Jmh.BlockMultiplicationMatrixBenchmark.testBlockMultiplication$.executor": "Run",
-    "Jmh.ParallelMatrixMultiplicationBenchmark.benchmarkMatrixMultiplication$.executor": "Run",
-    "Jmh.SparseMatrixCSCMulBenchmark.benchmarkCSCMultiplication$.executor": "Run",
-    "Jmh.SparseMatrixCSCMulBenchmark.testCSCMatrixMultiplication$.executor": "Run",
-    "Jmh.SparseMatrixCSCWilliamBenchmark.testMatrixMultiplication$.executor": "Run",
-    "Jmh.SparseMatrixCSRMulBenchmark.benchmarkCSRMultiplication$.executor": "Run",
-    "Jmh.SparseMatrixCSRMulBenchmark.testCSRMatrixMultiplication$.executor": "Run",
-    "Jmh.SparseMatrixCSRWilliamBenchmark.testCSRMatrixMultiplication$.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/cgsos/Documents/Tercero/Big Data/MatrixOptimization/SparseMatrix/src/main/java/SparseRowCSR",
-    "last_opened_file_path": "C:/Users/cgsos/Downloads/ParallelMatrixMultiplication.java",
-    "onboarding.tips.debug.path": "C:/Users/cgsos/Documents/Tercero/Big Data/MatrixOptimization/ParalallelMatrix/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MatrixMultiplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SparseMatrixCSCMul.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SparseMatrixCSCWilliam.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SparseMatrixCSRMul.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SparseMatrixCSRMulWilliam$CSRMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SparseMatrixCSRMulWilliam.executor&quot;: &quot;Run&quot;,
+    &quot;Jmh.BlockMultiplicationMatrixBenchmark.testBlockMultiplication$.executor&quot;: &quot;Run&quot;,
+    &quot;Jmh.ParallelMatrixMultiplicationBenchmark.benchmarkMatrixMultiplication$.executor&quot;: &quot;Run&quot;,
+    &quot;Jmh.SparseMatrixCSCMulBenchmark.benchmarkCSCMultiplication$.executor&quot;: &quot;Run&quot;,
+    &quot;Jmh.SparseMatrixCSCMulBenchmark.testCSCMatrixMultiplication$.executor&quot;: &quot;Run&quot;,
+    &quot;Jmh.SparseMatrixCSCWilliamBenchmark.testMatrixMultiplication$.executor&quot;: &quot;Run&quot;,
+    &quot;Jmh.SparseMatrixCSRMulBenchmark.benchmarkCSRMultiplication$.executor&quot;: &quot;Run&quot;,
+    &quot;Jmh.SparseMatrixCSRMulBenchmark.testCSRMatrixMultiplication$.executor&quot;: &quot;Run&quot;,
+    &quot;Jmh.SparseMatrixCSRWilliamBenchmark.testCSRMatrixMultiplication$.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/cgsos/Documents/Tercero/Big Data/MatrixOptimization/SparseMatrix/src/main/java/SparseRowCSR&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/cgsos/Downloads/ParallelMatrixMultiplication.java&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/cgsos/Documents/Tercero/Big Data/MatrixOptimization/ParalallelMatrix/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="testBenchmark" />
@@ -90,7 +91,7 @@
       <recent name="C:\Users\cgsos\Documents\Tercero\Big Data\MatrixOptimization\SparseMatrix" />
     </key>
   </component>
-  <component name="RunManager" selected="Jmh.ParallelMatrixMultiplicationBenchmark.benchmarkMatrixMultiplication$">
+  <component name="RunManager" selected="Jmh.BlockMultiplicationMatrixBenchmark.testBlockMultiplication$">
     <configuration name="SparseMatrixCSRMulWilliam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SparseRowCSR.SparseMatrixCSRMulWilliam" />
       <module name="SparseMatrix" />
@@ -130,10 +131,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jmh.ParallelMatrixMultiplicationBenchmark.benchmarkMatrixMultiplication$" />
-        <item itemvalue="Jmh.SparseMatrixCSRMulBenchmark.benchmarkCSRMultiplication$" />
-        <item itemvalue="Jmh.SparseMatrixCSCMulBenchmark.benchmarkCSCMultiplication$" />
         <item itemvalue="Jmh.BlockMultiplicationMatrixBenchmark.testBlockMultiplication$" />
+        <item itemvalue="Jmh.ParallelMatrixMultiplicationBenchmark.benchmarkMatrixMultiplication$" />
+        <item itemvalue="Jmh.SparseMatrixCSCMulBenchmark.benchmarkCSCMultiplication$" />
+        <item itemvalue="Jmh.SparseMatrixCSRMulBenchmark.benchmarkCSRMultiplication$" />
         <item itemvalue="Application.SparseMatrixCSRMulWilliam" />
       </list>
     </recent_temporary>
@@ -179,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731093197709</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Parallel Matrix done">
+      <option name="closed" value="true" />
+      <created>1731095669046</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731095669046</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,7 +206,8 @@
     <MESSAGE value="Sparse done" />
     <MESSAGE value="William Done" />
     <MESSAGE value="Block matrix done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Block matrix done" />
+    <MESSAGE value="Parallel Matrix done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parallel Matrix done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

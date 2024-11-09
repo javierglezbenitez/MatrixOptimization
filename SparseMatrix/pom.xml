@@ -36,7 +36,6 @@
             <version>0.41</version>
         </dependency>
 
-        <!-- EJML Sparse (para soporte de matrices dispersas) -->
         <dependency>
             <groupId>org.ejml</groupId>
             <artifactId>ejml-simple</artifactId>

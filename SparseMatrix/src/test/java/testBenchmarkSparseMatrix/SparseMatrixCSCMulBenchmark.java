@@ -15,7 +15,7 @@ public class SparseMatrixCSCMulBenchmark {
     private CSCMatrix cscMatrixA;
     private CSCMatrix cscMatrixB;
 
-    @Param({"10", "100", "1024"})  // Define los tamaños de las matrices a probar
+    @Param({"10", "100", "1024"})
     private int matrixSize;
 
     @Setup(Level.Trial)
@@ -23,7 +23,6 @@ public class SparseMatrixCSCMulBenchmark {
         double[][] matrixA = generateRandomSparseMatrix(matrixSize, matrixSize, 0.1);
         double[][] matrixB = generateRandomSparseMatrix(matrixSize, matrixSize, 0.1);
 
-        // Convertimos las matrices a formato CSC
         cscMatrixA = SparseMatrixCSCMul.convertToCSC(matrixA);
         cscMatrixB = SparseMatrixCSCMul.convertToCSC(matrixB);;
     }
@@ -36,7 +35,6 @@ public class SparseMatrixCSCMulBenchmark {
         return cscMatrixA.multiply(cscMatrixB);
     }
 
-    // Método para generar una matriz dispersa aleatoria
     private double[][] generateRandomSparseMatrix(int rows, int cols, double sparsity) {
         double[][] matrix = new double[rows][cols];
         Random random = new Random();
